@@ -193,6 +193,10 @@
                 "(" + link + ")",
                 model.substr(selection.end)
             ].join("");
+        },
+        separator: function(model, selection){
+            // peform no action
+            return model;
         }
     };
 
@@ -237,8 +241,8 @@
         "italic": "ame-italic",
         "strikethrough": "ame-strikethrough",
         "heading": "ame-header",
-        "heading2": "ame-header",
-        "heading3": "ame-header",
+        "heading2": "ame-header2",
+        "heading3": "ame-header3",
         "bullets": "ame-list-ul",
         "numbers": "ame-list-ol",
         "indent": "ame-indent",
